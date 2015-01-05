@@ -1,0 +1,1 @@
+This is a 2048 clone that I created over summer and winter breaks to practice html, css, javascript and jquery. I borrowed the design heavily from the original 2048 game found here: http://gabrielecirulli.github.io/2048/
