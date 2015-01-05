@@ -1,0 +1,76 @@
+#title{
+    font-size: 50px;
+    color: #003D66;
+    /*padding-bottom: 25px;*/
+    text-align: center;
+    font-family: "Arial Black", "Arial", sans-serif;
+}
+
+#instructions{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+#settings{
+    font-size: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+#playbutton{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    padding-bottom: 1px;
+}
+
+.float-left{
+    float:left;
+    margin-right: 10px;
+}
+
+.float-right{
+    padding-top: 8px;
+}
+
+#board-size{
+    padding-left: 37px;
+    margin-right: 4px;
+}
+
+#howTo{
+    padding-left: 29px;
+}
+
+p.spaced{
+    line-height: 135%;
+}
+
+#header{
+    margin: 20px 0 20px;
+    border-bottom: 4px dashed #7B93AD;
+}
+
+.footer{
+    border-top: 4px dashed #7B93AD;
+    padding-top: 10px;
+}
+
+.text-centered{
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My 2048!</title>
+        <script type="application/javascript" src="jquery-2.1.1.min.js"></script>
+        <script type="application/javascript" src="game.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+        <!-- Load the bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="header" class="page-header">
+                <h3 id="title">
+                    MY 2048
+                </h3>
+            </div>
+
+            <div class="centered">
+                <h4 class="float-left">
+                    <b id="howTo">How to Play: </b> 
+                </h4>
+
+                <h4 class="float-right">
+                <p class="spaced">
+                    Use your <kbd>arrow keys</kbd> to move the tiles. When two tiles with the same number touch, they <b>merge into one!</b>
+                </p>
+                    
+                </h4>
+            </div>
+            <div class="centered">
+                <form class="form-inline">
+                    <h4>
+                        <b id="board-size">Board Size: </b>
+                        <select id="boardsizedropdown" class="form-control">
+                            <option value="3">3x3</option>
+                            <option value="4" selected>4x4</option>
+                            <option value="5">5x5</option>
+                            <option value="6">6x6</option>
+                        </select>
+                        <button type="button" class="btn btn-sm btn-info" id="playbutton" onclick="play()" disabled=true>Loading...</button>
+                    </h4>
+                </form>
+            </div>
+
+            <br>
+            <canvas id="main" width="410" height="410"></canvas>
+            <br>
+            <div class="footer">
+                <div class="centered text-centered">
+                    Created by Evan Fossier, design and game inspired by <a href="http://gabrielecirulli.github.io/2048/">original by Gabriele Cirulli</a>.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
